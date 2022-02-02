@@ -39,14 +39,14 @@
                     <div>
                         <h2 class="margin">Form</h2>
 
-                        <form>
+                        <form method="GET" action="">
                             <table>
                                 <tr>
                                     <td>
                                         <label for="name">Fill in your name:</label>
                                     </td>
                                     <td>
-                                        <input type="text" id="name" name="name">
+                                        <input type="text" id="name" name="name" placeholder="Name" required>
                                     </td>
                                 </tr>
                                 <tr>
@@ -54,7 +54,7 @@
                                         <label for="age">Enter your age:</label>
                                     </td>
                                     <td>
-                                        <input type="text" id="age" name="age">
+                                        <input type="text" id="age" name="age" placeholder="Age" required>
                                     </td>
                                 </tr>
                                 <tr>
@@ -62,12 +62,17 @@
                                         <label for="mood">Choose your mood:</label>
                                     </td>
                                     <td>
-                                        <select id="mood">
+                                        <select id="mood" name="mode" required>
                                             <option>Happy</option>
                                             <option>Sad</option>
                                             <option>Angry</option>
                                             <option>Worried</option>
                                         </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2" style="text-align: center;">
+                                        <input type="submit" value="Send">
                                     </td>
                                 </tr>
                             </table>

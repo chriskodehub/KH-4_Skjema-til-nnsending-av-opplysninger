@@ -15,7 +15,22 @@ caption {
 }
 
 a {
-    color: lightseagreen
+    color: lightseagreen;
+}
+
+::placeholder {
+    color: lightseagreen;
+}
+
+input[type="submit"] {
+    background: lightseagreen;
+    color: white;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 25px;
+    margin-top: 10px;
+    font-size: 18px;
 }
 
 .margin {
