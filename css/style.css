@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+}
+
+td,
+th {
+    padding: 5px 20px 5px 0px;
+}
+
+caption {
+    color: lightseagreen;
+    caption-side: bottom;
+    font-size: 80%;
+    margin: 5px 0 20px;
+}
+
+a {
+    color: lightseagreen
+}
+
+.margin {
+    margin-top: 40px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.containter-header-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    background: lightgray;
+    height: 150px;
+}
+
+.title {
+    font-size: 40px;
+    height: fit-content;
+}
+
+.main {
+    width: 100vw;
+    display: flex;
+    flex: 1;
+}
+
+.article {
+    flex-grow: 5;
+    display: flex;
+    flex-basis: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.table-1 {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+table.table-1 > thead > tr > th,
+table.table-1 > tbody > tr > td {
+    border: 1px solid;
+}
+
+.table-2 {
+    border: 2px solid;
+    border-collapse: collapse;
+}
+
+table.table-2 > tbody > tr > td {
+    border: 1px solid black;
+}
+
+table.table-2 > thead > tr > th {
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+table.table-2 > thead > tr > th {
+    background: lightseagreen;
+    color: white;
+}
+
+table.table-2 > tbody > tr:hover {
+    background: lightsalmon;
+}
+
+.footer {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-footer {
+    height: 45px;
+    margin-right: 20px;
+}
+
+.nav-footer {
+    font-size: 18px;
+}
+
+.nav-footer a {
+    color: lightseagreen;
+    text-decoration: none;
+}
